@@ -1,0 +1,2 @@
+-SR- customer chooses course, showing them all classes within that course
+-SR- if customer chooses course with a class all taken up, page will show "no results available."
