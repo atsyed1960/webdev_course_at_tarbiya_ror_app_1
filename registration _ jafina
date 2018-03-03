@@ -1,0 +1,6 @@
+$ git add . (Do not forget to put the dot after the add and the single space)
+$ git commit -am “created a file with features to be implemented by Aasiah”
+$ git push --set-upstream origin registration_aasiah
+You will be asked to provide your username and password. 
+Enter your username for Github 
+Enter your password you used to signup with Github - password 

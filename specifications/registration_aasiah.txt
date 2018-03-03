@@ -1,0 +1,5 @@
+reserve course 48 hours 
+- can still edit cart
+- register for course
+- put some contact information
+- at checkout register
