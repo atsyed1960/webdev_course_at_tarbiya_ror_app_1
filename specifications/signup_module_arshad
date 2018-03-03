@@ -12,7 +12,7 @@ Scenario: 1. An unregistered user signs up successfully
     And the email address has not been used by another user
     Then the Visitor is automatically signed in and redirected to the dashboard
 
-Scenario: 1. An unregistered user signs up UNsuccessfully
+Scenario: 2. An unregistered user signs up UNsuccessfully
     Given that a Visitor is at the home page of the website
     And the Visitor has not signed up
     When Visitor clicks on a link labeled "Signup"
