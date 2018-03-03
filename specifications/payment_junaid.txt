@@ -1,0 +1,18 @@
+-- Junaid As-Salek
+Earlier Step  > Shopping Cart
+
+Sk (A) Edit/ Drop Courses? (must have)
+      - Yes, go to step (2)
+      - No > Agree Refund Policy?
+                 - Yes, Choose (b) Payment Methods.
+                 - No, >> Exit
+
+SA (B) Methods CC (must have), DC, Check, PP,
+ 
+TK (c) Verification of  information
+(must have)
+
+JA (d) Sending the info to the provider's server
+(must have)
+
+AR (c) Confirmation (must have)
