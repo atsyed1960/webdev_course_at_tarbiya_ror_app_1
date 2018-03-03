@@ -1,0 +1,3 @@
+Qasim's features
+-qj- customer chooses class, then brought to subject 
+-qj- customer chooses subject, bringing up time and schedule
