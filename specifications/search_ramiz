@@ -1,0 +1,11 @@
+customer interaction
+-AA- customer will search for a specific course from drop down menu
+-SR- customer chooses course, showing them all classes within that course
+-QJ- customer chooses class, then brought to subject
+-QJ- costumer chooses subject, bringing up time and schedule
+-RI- customer chooses best time, if time not available, it will give error saying "no class available this time."
+-RI- once customer is good with their courses, they will click on "register for classes."
+
+error pages - 
+-SR- if customer chooses course with a class all taken up, page will show "no results available."
+-AA- customer cannot choose 2 classes at once
