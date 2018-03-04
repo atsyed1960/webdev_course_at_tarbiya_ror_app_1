@@ -16,7 +16,7 @@ Scenario: user selects credeit card as the payment method
     Then a modal dialog pops up with the credit card information
     And I choose a payment method labeled "Credit Card"
     And I click the button labeled "Submit"
-    Then 
+    Then...
     
 Scenario: unsuccessful selection of payment method
     Given that the visitor is choose the course
