@@ -6,7 +6,8 @@ Feature: add courses
      Then chooses courses
      When courses found
      Then put courses in the cart
-     Then reserve for 48 hours
+    @aasiah
+     Then reserve for 48 hours 
      And can still edit cart later
 
     Scenario: Second
@@ -16,5 +17,6 @@ Feature: add courses
       Then restarts the process for registration
       When courses found
       Then place in cart
+      @aasiah
       And reserve for 48 hours
       Then can edit cart later
