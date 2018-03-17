@@ -2,6 +2,7 @@
 # -AA- customer will search for a specific course from drop down menu
 # -AA- customer cannot choose 2 classes at once
 # Signup Module (Search)
+@ahnaf
 Feature: User needs to select course from avaliable courses
     In order to select a course
     As a registered user
