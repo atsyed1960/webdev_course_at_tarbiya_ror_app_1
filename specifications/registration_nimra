@@ -1,15 +1,18 @@
 --Nimra Rashid --
-Once we have an account with Tarbiyah.
--* a cart should be created.(JEFFINA)
-- Browse for courses 
-- choose courses 
--* goes into cart 
--* reserve course 48 hours (AASIYAH)
-- can still edit cart
-- register for course
-- put some contact information
-- at checkout register
-Registration requirements.(ASMA)
-- email 
-- password
-- name 
+Senario 1
+ Given that course chosen and ready for payment (successful)
+    Given that course is chosen 
+    And ready for payment 
+    Provide "REGISTRATION" button
+    Page opens with "REGISTRATION" label
+    ?Autofill settings? 
+    When ready to register 
+    Then require customer to provide:
+    email
+    password
+    name
+Scenario 2: 
+    Given course in cart for more than 48hrs 
+    Then remove course from cart
+    Don't provide "REGISTRATION" button
+    And place course back into marketplace 
