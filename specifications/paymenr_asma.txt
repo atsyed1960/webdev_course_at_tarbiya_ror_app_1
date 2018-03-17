@@ -1,0 +1,52 @@
+SA (B) Methods CC (must have), DC, Check, PP,
++Signup Module (Registration)
+
+
++Features: SA (B) Methods CC (must have), DC, Check, PP,
++Scenario: 1 successful selection of payment method
+    Given that the visitor is choose the course
+    And is at the payment page
+    And decides to pay by credit card
+    Then a modal dialog pops up with the credit card information
+    And the user chooses a payment method
+    And clicks the submit button
+    
++Scenario: 2 unsuccessful selection of payment method
+    Given that the visitor is choose the course
+    And is at the payment page
+    And decides to pay by credit card
+    Then a modal dialog pops up with the credit card information
+    And the user chooses a payment method
+    And clicks the submit button
+    Then an error message pop up
+    And go back to the begining of the payment method
+    
++Scenario 3 decide not to make the payment
+     Given that the visitor is choose the course
+    And is at the payment page
+    And decide not to make the paument
+    And click exit button
+    Then go back to the shoping cart
+    
+
++Scenario: 1. An unregistered user signs up successfully
++    Given that a Visitor is at the home page of the website
++    And the Visitor has not signed up
++    When Visitor clicks on a link labeled "Signup"
++    Then a modal dialog pops up with the signup form
++    And the signup form includes empty fields for user registration and a button labeled "Signup"
++    And the Visitor fills the fields fullname, email address, password, and password confirmation
++    And the Visitor clicks the button labeled "Signup"
++    And the email address has not been used by another user
++    Then the Visitor is automatically signed in and redirected to the dashboard
++
++Scenario: 1. An unregistered user signs up UNsuccessfully
++    Given that a Visitor is at the home page of the website
++    And the Visitor has not signed up
++    When Visitor clicks on a link labeled "Signup"
++    Then a modal dialog pops up with the signup form
++    And the signup form includes empty fields for user registration and a button labeled "Signup"
++    And the Visitor fills the fields fullname, email address, password, and password confirmation
++    And the Visitor clicks the button labeled "Signup"
++    And the email address has already been used by another user
++    Then the Visitor see a message on the home page that their email is already beng used by another user

@@ -39,6 +39,10 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  # March 3, 2018
+  gem 'rspec-rails', '~> 3.7'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
 end
 
 group :development do

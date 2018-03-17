@@ -1,2 +1,18 @@
 -AA- customer will search for a specific course from drop down menu
 -AA- customer cannot choose 2 classes at once
+--Ahnaf As-Salek --
+Signup Module (Search)
+Features:
+Scenario 1: Customer will search for a specific course from drop down menu
+Given if a user logs in and is on the home page
+And has selected the "Choose Courses" link
+Then a drop down menu will appear with all the available classes
+
+
+Scenario 2: Customer cannot choose 2 classes at once
+Given if a user logs in and is on the home page 
+Customer will select the "Choose Courses"
+And has selected the "Choose Courses"
+Then a drop down menu will appear with all the available classes
+And the customer will choose the desired class that they want to take
+When a customer attempts to select multiple classes at once, the drop down menu will only allow the customer to choose a single class
