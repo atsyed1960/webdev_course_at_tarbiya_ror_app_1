@@ -3,3 +3,19 @@ reserve course 48 hours
 - register for course
 - put some contact information
 - at checkout register
+Scenario 1: A cart is created for the user succesfully and the user has picked a course with spots availible
+Given the user already has a verified account with Tarbiyah
+Given the user has searched for a course and wants to register/reserve a spot for 48 hours
+Given there are still spots in the course left
+The user clicks on "reserve/register for a course"
+The course then appears in the user's cart and will stay for 48 hours
+The user then clicks on "confirm registration"
+This takes the user to the payment window
+
+Scenario 2: A cart has been created for the user but user has clicked on a course with NO spots availible for reservation/registration
+Given the user already has a verified account with Tarbiyah
+User clicks on a course with NO open spots
+User presses on "show me more courses like this"
+Courses with similar topics/time are shown
+User does not find a course
+User is taken back to search courses page
