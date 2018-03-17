@@ -1,0 +1,30 @@
+Ramiz Islam
+choosing time for class (search)
+Features:
+Scenario 1:
+Customer is brought to timing after choosing class
+Customer chooses time of class that is avalible
+Customer has class chosen of desire
+Customer chooses times of scedule for classes
+Customer chooses class most desirable to avalible their class
+
+Scenario 2:
+Customer is brought to timing after choosing class
+Customer chooses time of class that is avalible
+Customer has class chosen of desire
+Customer chooses times of scedule for classes
+If time not availbie by no availble seats for class
+Customer will get error page saying "class full"
+
+checking review of selected classes
+Features:
+Scenario 1:
+When customer has all classes selected
+Customer is brought to review screen show, showing all they have accepted to add
+Customer will click accept to continue to register
+
+Scenario 2:
+When customer has all classes selected
+Customer is brought to review screen show, showing all they have accepted to add
+If customer not satisfied with selected course
+Customer will select "Edit" to change classes and time
