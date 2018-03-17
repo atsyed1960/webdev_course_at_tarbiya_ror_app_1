@@ -1,5 +1,11 @@
--- Junaid As-Salek
+
+
 Earlier Step  > Shopping Cart
+
+#-- Junaid As-Salek
+
+Payment Module
+
 
 Sk (A) Edit/ Drop Courses? (must have)
       - Yes, go to step (2)
@@ -15,4 +21,63 @@ TK (c) Verification of  information
 JA (d) Sending the info to the provider's server
 (must have)
 
+Features:
+
+Scenario: 1. 
+    Given that the payment method is a credit card
+    And from the first 4 digits of credit card number the credit card is determined to be VISA
+    Then send the credit card owner's FirstName to VISA website
+    And send the credit card owners LastName to VISA website
+    And send the 16 digits credit card number to VISA website
+    And send the 3 digits of CVV to VISA website
+    And send the date of expiration to the VISA website
+    And the visitor will see a message that "Your Payment is being processed..."
+    When the confirmation of payment from VISA website is received
+    Then the Visitor see a message on the home page that "Your payment is sucessfully processed"
+    And an email is send to the visitir's email with the confirmation of course registration
+    
+    
+Scenario: 2. 
+    Given that the payment method is a credit card
+    And from the first 4 digits of credit card number the credit card is determined to be VISA
+    Then send the credit card owner's FirstName to VISA website
+    And send the credit card owners LastName to VISA website
+    And send the 16 digits credit card number to VISA website
+    And send the 3 digits of CVV to VISA website
+    And send the date of expiration to the VISA website
+    And the visitor will see a message that "Your Payment is being processed..."
+    When the confirmation of payment from VISA website is received
+    Then the Visitor see a message on the home page that "Your payment is sucessfully processed"
+    And an email is send to the visitir's email with the confirmation of course registration
+
+Scenario: 3. 
+    Given that the payment method is a credit card
+    And from the first 4 digits of credit card number the credit card is determined to be VISA
+    Then send the credit card owner's FirstName to VISA website
+    And send the credit card owners LastName to VISA website
+    And send the 16 digits credit card number to VISA website
+    And send the 3 digits of CVV to VISA website
+    And send the date of expiration to the VISA website
+    And the visitor will see a message that "Your Payment is being processed..."
+    When the confirmation of payment from VISA website is received
+    Then the Visitor see a message on the home page that "Your payment is sucessfully processed"
+    And an email is send to the visitir's email with the confirmation of course registration
+
+
+Scenario: 4. 
+    Given that the payment method is a credit card
+    And from the first 4 digits of credit card number the credit card is determined to be VISA
+    Then send the credit card owner's FirstName to VISA website
+    And send the credit card owners LastName to VISA website
+    And send the 16 digits credit card number to VISA website
+    And send the 3 digits of CVV to VISA website
+    And send the date of expiration to the VISA website
+    And the visitor will see a message that "Your Payment is being processed..."
+    When the confirmation of payment from VISA website is received
+    Then the Visitor see a message on the home page that "Your payment is sucessfully processed"
+    And an email is send to the visitir's email with the confirmation of course registration
+
+
+    
+    
 AR (c) Confirmation (must have)
