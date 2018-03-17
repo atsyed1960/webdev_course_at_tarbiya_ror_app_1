@@ -1,12 +1,16 @@
 # Syeda Asma
 # SA (B) Methods CC (must have), DC, Check, PP,
-# Payment  Module 
+# Payment  Module
 
+@payments
 Feature: User selection of a payment method
   As a student
   In order to pay for the registered course
   I need to select a payment method
-  
+
+@test
+Scenario: test the installation 
+
 Scenario: user selects credeit card as the payment method
     Given that I am logged-in as a "student user" 
     And I have registered for a course
@@ -16,7 +20,7 @@ Scenario: user selects credeit card as the payment method
     Then a modal dialog pops up with the credit card information
     And I choose a payment method labeled "Credit Card"
     And I click the button labeled "Submit"
-    Then 
+    Then the payment method is accepted
     
 Scenario: unsuccessful selection of payment method
     Given that the visitor is choose the course
