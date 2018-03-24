@@ -6,7 +6,10 @@ Feature: add courses
      Then chooses courses
      When courses found
      Then put courses in the cart
-     Then reserve for 48 hours
+     
+    @aasiah
+    Scenario: First
+     Then reserve for 48 hours 
      And can still edit cart later
 
     Scenario: Second
