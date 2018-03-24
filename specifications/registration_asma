@@ -1,0 +1,17 @@
+Scenario 1:  Given that course chosen and ready for payment (successful)
+    Given that course is chosen 
+    And ready for payment 
+    Provide "REGISTRATION" button
+    Page opens with "REGISTRATION" label
+    ?Autofill settings? 
+    When ready to register 
+    Then require customer to provide:
+    email
+    password
+    name
+Scenario 2: 
+    Given course in cart for more than 48hrs 
+    Then remove course from cart
+    Don't provide "REGISTRATION" button
+    And place course back into marketplace 
+    

@@ -32,7 +32,7 @@ Once we have an account with Tarbiyah.
 - register for course
 - put some contact information
 - at checkout register
-Registration requirements.
+Registration requirements. @Asma
 - email 
 - password
 - name 
