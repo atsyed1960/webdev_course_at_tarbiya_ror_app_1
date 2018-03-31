@@ -2,7 +2,9 @@
 # SA (B) Methods CC (must have), DC, Check, PP,
 # Payment  Module
 
-@payments
+@payments @ Syeda
+
+
 Feature: User selection of a payment method
   As a student
   In order to pay for the registered course
